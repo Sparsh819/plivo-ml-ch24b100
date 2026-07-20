@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+eot_data/
+*.wav
