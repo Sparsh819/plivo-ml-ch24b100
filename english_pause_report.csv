@@ -1,0 +1,249 @@
+turn_id,true_label,pause_duration_ms,predicted_p_eot,fires_at_threshold,response_time_ms,outcome
+en__000,hold,300,0.2833,no,,correctly waited
+en__000,hold,900,0.1672,no,,correctly waited
+en__000,hold,800,0.3504,no,,correctly waited
+en__000,eot,1371,0.4892,no,1600,"missed, falls back to 1600ms timeout"
+en__001,hold,200,0.3063,no,,correctly waited
+en__001,eot,1428,0.4061,no,1600,"missed, falls back to 1600ms timeout"
+en__002,hold,1800,0.1943,no,,correctly waited
+en__002,hold,200,0.1176,no,,correctly waited
+en__002,hold,300,0.1333,no,,correctly waited
+en__002,hold,500,0.4598,no,,correctly waited
+en__002,hold,1800,0.4578,no,,correctly waited
+en__002,hold,1600,0.4435,no,,correctly waited
+en__002,eot,1371,0.7543,yes,150,"fired early, responds at 150ms"
+en__003,eot,1337,0.7545,yes,150,"fired early, responds at 150ms"
+en__004,hold,400,0.1457,no,,correctly waited
+en__004,eot,1273,0.6801,yes,150,"fired early, responds at 150ms"
+en__005,hold,400,0.1736,no,,correctly waited
+en__005,eot,1301,0.5829,yes,150,"fired early, responds at 150ms"
+en__006,hold,900,0.1086,no,,correctly waited
+en__006,hold,400,0.1195,no,,correctly waited
+en__006,eot,1297,0.4960,no,1600,"missed, falls back to 1600ms timeout"
+en__007,hold,800,0.3480,no,,correctly waited
+en__007,hold,200,0.3442,no,,correctly waited
+en__007,hold,300,0.4126,no,,correctly waited
+en__007,hold,500,0.2600,no,,correctly waited
+en__007,hold,2900,0.2790,no,,correctly waited
+en__007,hold,1800,0.2228,no,,correctly waited
+en__007,eot,1294,0.5148,yes,150,"fired early, responds at 150ms"
+en__008,hold,400,0.2550,no,,correctly waited
+en__008,hold,200,0.4266,no,,correctly waited
+en__008,hold,800,0.4787,no,,correctly waited
+en__008,eot,1291,0.6471,yes,150,"fired early, responds at 150ms"
+en__009,eot,1263,0.1916,no,1600,"missed, falls back to 1600ms timeout"
+en__010,hold,400,0.1532,no,,correctly waited
+en__010,eot,1309,0.3481,no,1600,"missed, falls back to 1600ms timeout"
+en__011,eot,1336,0.4641,no,1600,"missed, falls back to 1600ms timeout"
+en__012,hold,700,0.2105,no,,correctly waited
+en__012,hold,400,0.5184,yes,,FALSE CUTOFF
+en__012,eot,1436,0.4754,no,1600,"missed, falls back to 1600ms timeout"
+en__013,eot,1421,0.3761,no,1600,"missed, falls back to 1600ms timeout"
+en__014,hold,100,0.1099,no,,correctly waited
+en__014,eot,1425,0.6249,yes,150,"fired early, responds at 150ms"
+en__015,hold,500,0.1203,no,,correctly waited
+en__015,eot,1351,0.4092,no,1600,"missed, falls back to 1600ms timeout"
+en__016,hold,300,0.3565,no,,correctly waited
+en__016,hold,300,0.3660,no,,correctly waited
+en__016,eot,1282,0.6216,yes,150,"fired early, responds at 150ms"
+en__017,hold,300,0.2969,no,,correctly waited
+en__017,eot,1308,0.4464,no,1600,"missed, falls back to 1600ms timeout"
+en__018,hold,1000,0.4561,no,,correctly waited
+en__018,hold,200,0.2264,no,,correctly waited
+en__018,hold,2300,0.3740,no,,correctly waited
+en__018,hold,400,0.1473,no,,correctly waited
+en__018,hold,200,0.2428,no,,correctly waited
+en__018,eot,1350,0.6834,yes,150,"fired early, responds at 150ms"
+en__019,eot,1444,0.5124,yes,150,"fired early, responds at 150ms"
+en__020,hold,200,0.0877,no,,correctly waited
+en__020,hold,400,0.2843,no,,correctly waited
+en__020,eot,1254,0.7949,yes,150,"fired early, responds at 150ms"
+en__021,eot,1416,0.4320,no,1600,"missed, falls back to 1600ms timeout"
+en__022,hold,200,0.2325,no,,correctly waited
+en__022,eot,1420,0.3857,no,1600,"missed, falls back to 1600ms timeout"
+en__023,hold,700,0.1568,no,,correctly waited
+en__023,hold,400,0.1493,no,,correctly waited
+en__023,eot,1345,0.4401,no,1600,"missed, falls back to 1600ms timeout"
+en__024,hold,1100,0.2840,no,,correctly waited
+en__024,hold,1300,0.2670,no,,correctly waited
+en__024,eot,1257,0.3127,no,1600,"missed, falls back to 1600ms timeout"
+en__025,eot,1371,0.7439,yes,150,"fired early, responds at 150ms"
+en__026,eot,1251,0.3236,no,1600,"missed, falls back to 1600ms timeout"
+en__027,hold,200,0.5321,yes,,FALSE CUTOFF
+en__027,eot,1256,0.5724,yes,150,"fired early, responds at 150ms"
+en__028,hold,100,0.2351,no,,correctly waited
+en__028,eot,1322,0.5131,yes,150,"fired early, responds at 150ms"
+en__029,hold,100,0.2116,no,,correctly waited
+en__029,hold,400,0.2248,no,,correctly waited
+en__029,eot,1295,0.7566,yes,150,"fired early, responds at 150ms"
+en__030,hold,500,0.3820,no,,correctly waited
+en__030,hold,800,0.2284,no,,correctly waited
+en__030,hold,800,0.3953,no,,correctly waited
+en__030,hold,1000,0.3834,no,,correctly waited
+en__030,eot,1259,0.6849,yes,150,"fired early, responds at 150ms"
+en__031,eot,1331,0.5315,yes,150,"fired early, responds at 150ms"
+en__032,hold,300,0.3277,no,,correctly waited
+en__032,eot,1255,0.3607,no,1600,"missed, falls back to 1600ms timeout"
+en__033,eot,1410,0.3520,no,1600,"missed, falls back to 1600ms timeout"
+en__034,hold,500,0.2332,no,,correctly waited
+en__034,eot,1284,0.5057,yes,150,"fired early, responds at 150ms"
+en__035,hold,600,0.3554,no,,correctly waited
+en__035,hold,900,0.2458,no,,correctly waited
+en__035,eot,1402,0.6664,yes,150,"fired early, responds at 150ms"
+en__036,hold,500,0.2641,no,,correctly waited
+en__036,hold,500,0.3113,no,,correctly waited
+en__036,eot,1267,0.4404,no,1600,"missed, falls back to 1600ms timeout"
+en__037,hold,1200,0.1317,no,,correctly waited
+en__037,hold,400,0.1618,no,,correctly waited
+en__037,hold,200,0.2930,no,,correctly waited
+en__037,eot,1381,0.4080,no,1600,"missed, falls back to 1600ms timeout"
+en__038,hold,100,0.0788,no,,correctly waited
+en__038,hold,200,0.2884,no,,correctly waited
+en__038,hold,900,0.3018,no,,correctly waited
+en__038,eot,1391,0.2405,no,1600,"missed, falls back to 1600ms timeout"
+en__039,hold,700,0.2808,no,,correctly waited
+en__039,hold,400,0.4461,no,,correctly waited
+en__039,eot,1302,0.5417,yes,150,"fired early, responds at 150ms"
+en__040,eot,1308,0.5470,yes,150,"fired early, responds at 150ms"
+en__041,eot,1274,0.6479,yes,150,"fired early, responds at 150ms"
+en__042,hold,800,0.2276,no,,correctly waited
+en__042,hold,300,0.1802,no,,correctly waited
+en__042,hold,500,0.2440,no,,correctly waited
+en__042,hold,500,0.2776,no,,correctly waited
+en__042,eot,1331,0.6583,yes,150,"fired early, responds at 150ms"
+en__043,eot,1286,0.7729,yes,150,"fired early, responds at 150ms"
+en__044,hold,400,0.3368,no,,correctly waited
+en__044,hold,500,0.5738,yes,,FALSE CUTOFF
+en__044,eot,1302,0.4304,no,1600,"missed, falls back to 1600ms timeout"
+en__045,hold,300,0.1809,no,,correctly waited
+en__045,eot,1283,0.5303,yes,150,"fired early, responds at 150ms"
+en__046,hold,1000,0.2304,no,,correctly waited
+en__046,hold,700,0.1700,no,,correctly waited
+en__046,eot,1407,0.5650,yes,150,"fired early, responds at 150ms"
+en__047,eot,1345,0.5757,yes,150,"fired early, responds at 150ms"
+en__048,hold,200,0.2704,no,,correctly waited
+en__048,eot,1260,0.6432,yes,150,"fired early, responds at 150ms"
+en__049,hold,200,0.1550,no,,correctly waited
+en__049,hold,500,0.2702,no,,correctly waited
+en__049,hold,300,0.3814,no,,correctly waited
+en__049,hold,1100,0.4148,no,,correctly waited
+en__049,eot,1396,0.4727,no,1600,"missed, falls back to 1600ms timeout"
+en__050,eot,1421,0.4801,no,1600,"missed, falls back to 1600ms timeout"
+en__051,hold,400,0.3407,no,,correctly waited
+en__051,hold,600,0.7063,yes,,FALSE CUTOFF
+en__051,eot,1357,0.8084,yes,150,"fired early, responds at 150ms"
+en__052,hold,300,0.3844,no,,correctly waited
+en__052,hold,200,0.3443,no,,correctly waited
+en__052,eot,1272,0.4667,no,1600,"missed, falls back to 1600ms timeout"
+en__053,hold,100,0.3324,no,,correctly waited
+en__053,eot,1438,0.4792,no,1600,"missed, falls back to 1600ms timeout"
+en__054,hold,300,0.4072,no,,correctly waited
+en__054,eot,1355,0.6119,yes,150,"fired early, responds at 150ms"
+en__055,eot,1286,0.3500,no,1600,"missed, falls back to 1600ms timeout"
+en__056,eot,1325,0.2958,no,1600,"missed, falls back to 1600ms timeout"
+en__057,eot,1286,0.2264,no,1600,"missed, falls back to 1600ms timeout"
+en__058,eot,1342,0.7252,yes,150,"fired early, responds at 150ms"
+en__059,hold,500,0.2894,no,,correctly waited
+en__059,hold,200,0.4099,no,,correctly waited
+en__059,eot,1407,0.5995,yes,150,"fired early, responds at 150ms"
+en__060,hold,200,0.2311,no,,correctly waited
+en__060,eot,1403,0.3149,no,1600,"missed, falls back to 1600ms timeout"
+en__061,hold,300,0.4745,no,,correctly waited
+en__061,hold,300,0.2872,no,,correctly waited
+en__061,eot,1359,0.3947,no,1600,"missed, falls back to 1600ms timeout"
+en__062,eot,1372,0.8594,yes,150,"fired early, responds at 150ms"
+en__063,hold,300,0.2697,no,,correctly waited
+en__063,eot,1427,0.6042,yes,150,"fired early, responds at 150ms"
+en__064,hold,600,0.2098,no,,correctly waited
+en__064,eot,1391,0.8348,yes,150,"fired early, responds at 150ms"
+en__065,hold,400,0.4639,no,,correctly waited
+en__065,hold,400,0.1827,no,,correctly waited
+en__065,eot,1334,0.7045,yes,150,"fired early, responds at 150ms"
+en__066,hold,200,0.3889,no,,correctly waited
+en__066,eot,1303,0.2853,no,1600,"missed, falls back to 1600ms timeout"
+en__067,hold,500,0.3862,no,,correctly waited
+en__067,hold,200,0.4935,no,,correctly waited
+en__067,eot,1318,0.6620,yes,150,"fired early, responds at 150ms"
+en__068,hold,100,0.2629,no,,correctly waited
+en__068,hold,500,0.3624,no,,correctly waited
+en__068,eot,1397,0.6637,yes,150,"fired early, responds at 150ms"
+en__069,hold,400,0.3984,no,,correctly waited
+en__069,eot,1442,0.5189,yes,150,"fired early, responds at 150ms"
+en__070,hold,500,0.1877,no,,correctly waited
+en__070,hold,800,0.2521,no,,correctly waited
+en__070,hold,900,0.2184,no,,correctly waited
+en__070,hold,1700,0.3699,no,,correctly waited
+en__070,hold,700,0.2392,no,,correctly waited
+en__070,hold,300,0.3809,no,,correctly waited
+en__070,eot,1384,0.5390,yes,150,"fired early, responds at 150ms"
+en__071,eot,1403,0.2892,no,1600,"missed, falls back to 1600ms timeout"
+en__072,eot,1251,0.6060,yes,150,"fired early, responds at 150ms"
+en__073,hold,800,0.1476,no,,correctly waited
+en__073,eot,1254,0.4728,no,1600,"missed, falls back to 1600ms timeout"
+en__074,eot,1300,0.6967,yes,150,"fired early, responds at 150ms"
+en__075,eot,1438,0.7125,yes,150,"fired early, responds at 150ms"
+en__076,eot,1394,0.8176,yes,150,"fired early, responds at 150ms"
+en__077,hold,600,0.2470,no,,correctly waited
+en__077,hold,100,0.3277,no,,correctly waited
+en__077,eot,1362,0.3785,no,1600,"missed, falls back to 1600ms timeout"
+en__078,eot,1315,0.5347,yes,150,"fired early, responds at 150ms"
+en__079,hold,200,0.2136,no,,correctly waited
+en__079,eot,1449,0.8008,yes,150,"fired early, responds at 150ms"
+en__080,hold,600,0.1853,no,,correctly waited
+en__080,hold,1900,0.2676,no,,correctly waited
+en__080,hold,200,0.1696,no,,correctly waited
+en__080,hold,300,0.1983,no,,correctly waited
+en__080,hold,1100,0.2742,no,,correctly waited
+en__080,eot,1362,0.8121,yes,150,"fired early, responds at 150ms"
+en__081,hold,600,0.1642,no,,correctly waited
+en__081,hold,900,0.2451,no,,correctly waited
+en__081,hold,700,0.2514,no,,correctly waited
+en__081,hold,1400,0.3375,no,,correctly waited
+en__081,eot,1329,0.6255,yes,150,"fired early, responds at 150ms"
+en__082,hold,600,0.6333,yes,,FALSE CUTOFF
+en__082,eot,1411,0.6820,yes,150,"fired early, responds at 150ms"
+en__083,hold,100,0.2375,no,,correctly waited
+en__083,hold,500,0.2043,no,,correctly waited
+en__083,eot,1296,0.7134,yes,150,"fired early, responds at 150ms"
+en__084,eot,1397,0.5644,yes,150,"fired early, responds at 150ms"
+en__085,eot,1402,0.5594,yes,150,"fired early, responds at 150ms"
+en__086,hold,200,0.1114,no,,correctly waited
+en__086,hold,400,0.2563,no,,correctly waited
+en__086,eot,1320,0.6867,yes,150,"fired early, responds at 150ms"
+en__087,eot,1359,0.3873,no,1600,"missed, falls back to 1600ms timeout"
+en__088,hold,300,0.1715,no,,correctly waited
+en__088,eot,1288,0.5072,yes,150,"fired early, responds at 150ms"
+en__089,hold,800,0.1521,no,,correctly waited
+en__089,eot,1442,0.3132,no,1600,"missed, falls back to 1600ms timeout"
+en__090,hold,600,0.2313,no,,correctly waited
+en__090,hold,1600,0.2419,no,,correctly waited
+en__090,hold,400,0.4112,no,,correctly waited
+en__090,eot,1392,0.6950,yes,150,"fired early, responds at 150ms"
+en__091,hold,3000,0.4559,no,,correctly waited
+en__091,hold,600,0.1521,no,,correctly waited
+en__091,hold,300,0.1123,no,,correctly waited
+en__091,hold,300,0.1475,no,,correctly waited
+en__091,hold,400,0.1744,no,,correctly waited
+en__091,hold,300,0.3721,no,,correctly waited
+en__091,hold,100,0.5881,yes,,fired but pause ended first (no cutoff)
+en__091,eot,1337,0.8689,yes,150,"fired early, responds at 150ms"
+en__092,hold,300,0.3388,no,,correctly waited
+en__092,eot,1334,0.6616,yes,150,"fired early, responds at 150ms"
+en__093,hold,1400,0.1328,no,,correctly waited
+en__093,hold,800,0.1351,no,,correctly waited
+en__093,hold,500,0.1788,no,,correctly waited
+en__093,hold,1200,0.1820,no,,correctly waited
+en__093,eot,1288,0.4271,no,1600,"missed, falls back to 1600ms timeout"
+en__094,hold,300,0.2087,no,,correctly waited
+en__094,eot,1401,0.5417,yes,150,"fired early, responds at 150ms"
+en__095,hold,3000,0.1301,no,,correctly waited
+en__095,hold,200,0.1473,no,,correctly waited
+en__095,hold,2200,0.2244,no,,correctly waited
+en__095,hold,900,0.1556,no,,correctly waited
+en__095,hold,400,0.3765,no,,correctly waited
+en__095,eot,1301,0.6340,yes,150,"fired early, responds at 150ms"
+en__096,eot,1319,0.5980,yes,150,"fired early, responds at 150ms"
+en__097,hold,300,0.2826,no,,correctly waited
+en__097,eot,1416,0.5516,yes,150,"fired early, responds at 150ms"
+en__098,eot,1380,0.3428,no,1600,"missed, falls back to 1600ms timeout"
+en__099,eot,1312,0.6079,yes,150,"fired early, responds at 150ms"

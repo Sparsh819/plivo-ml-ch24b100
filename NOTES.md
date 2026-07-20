@@ -4,8 +4,10 @@ The model uses causal prosodic features from the 2.5s of audio before each
 pause: trailing F0 level and slope (falling pitch → end-of-turn, rising or
 level pitch → continuation), trailing energy level/slope/decay, voicing
 fraction, final-voiced-run-length ratio (final-syllable lengthening), a
-speaking-rate proxy, and turn-context features (pause position, elapsed
-time, mean duration of this turn's earlier pauses). It's a gradient-boosted
+speaking-rate proxy, zero-crossing rate of the last 300ms (vowel- vs
+consonant/fricative-final endings), and turn-context features (pause
+position, elapsed time, mean duration of this turn's earlier pauses). It's
+a gradient-boosted
 tree classifier (150 shallow trees) trained jointly on English and Hindi, so
 it leans on language-agnostic prosody rather than lexical content, and
 model selection used grouped cross-validation scored with the real

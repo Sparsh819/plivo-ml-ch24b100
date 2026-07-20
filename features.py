@@ -21,7 +21,14 @@ def load_wav(path):
 
 
 def speech_before(x, sr, pause_start, window_s=1.5):
-    """The last `window_s` seconds of audio strictly before the pause."""
+    """The last `window_s` seconds of audio strictly before the pause.
+
+    Causality: `x[start:end]` with `end = int(pause_start * sr)` cannot
+    contain any sample at or after pause_start by construction (slicing
+    stops at `end`), so nothing from pause_end onward - or from the pause
+    itself - ever reaches a feature.
+    """
+    assert pause_start >= 0
     end = int(pause_start * sr)
     start = max(0, end - int(window_s * sr))
     return x[start:end]
@@ -98,6 +105,20 @@ def _voiced_runs(voiced_mask, hop_s):
     return runs
 
 
+def _zcr_rate(x, sr):
+    """Zero-crossing rate (crossings/sec) of a raw waveform segment.
+
+    Cheap proxy for vowel- vs consonant/fricative-final endings: vowels
+    (low ZCR) vs sibilants/fricatives (high ZCR) at the trailing edge.
+    """
+    if len(x) < 2:
+        return 0.0
+    signs = np.sign(x)
+    signs[signs == 0] = 1
+    crossings = np.sum(signs[:-1] != signs[1:])
+    return float(crossings) / (len(x) / sr)
+
+
 FEATURE_NAMES = [
     "e_last", "e_slope_500ms", "e_decay_window",
     "f0_last", "f0_slope", "f0_rel_to_mean",
@@ -105,6 +126,7 @@ FEATURE_NAMES = [
     "final_voiced_run_ratio", "n_voiced_runs_per_sec",
     "pause_index", "time_since_turn_start",
     "mean_prior_pause_dur", "energy_zscore",
+    "zcr_last300ms",
 ]
 
 
@@ -159,6 +181,9 @@ def extract_features(x, sr, pause_start, pause_index=0, prior_pause_durs=None):
         mu, sd = turn_e.mean(), turn_e.std() + 1e-6
         energy_zscore = float((e_last - mu) / sd)
 
+    tail_wave = speech_before(x, sr, pause_start, window_s=0.3)
+    zcr_last300ms = _zcr_rate(tail_wave, sr) if len(tail_wave) > 1 else 0.0
+
     return np.array([
         e_last, e_slope_500, e_decay,
         f0_last, f0_slope, f0_rel,
@@ -166,4 +191,5 @@ def extract_features(x, sr, pause_start, pause_index=0, prior_pause_durs=None):
         final_voiced_run_ratio, n_voiced_runs_per_sec,
         float(pause_index), float(pause_start),
         mean_prior, energy_zscore,
+        zcr_last300ms,
     ], dtype=np.float32)

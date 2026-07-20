@@ -14,7 +14,7 @@ import os
 import pickle
 
 import numpy as np
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import GradientBoostingClassifier, HistGradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GroupKFold
 from sklearn.preprocessing import StandardScaler
@@ -101,6 +101,8 @@ def main():
             n_estimators=150, max_depth=2, learning_rate=0.05, subsample=0.8, random_state=0),
         "gbdt_depth3": lambda: GradientBoostingClassifier(
             n_estimators=80, max_depth=3, learning_rate=0.05, subsample=0.8, random_state=0),
+        "hist_gbdt": lambda: HistGradientBoostingClassifier(
+            max_depth=2, learning_rate=0.05, max_iter=150, random_state=0),
     }
     results = {}
     for name, factory in candidates.items():
